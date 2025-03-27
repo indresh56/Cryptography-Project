@@ -6,22 +6,25 @@ Steps to Run on Linux:
 •	Open two Terminal windows 
 •	python -m venv venv
 •	source venv/bin/activate
-•	pip install cryptography
+•	pip install pycryptodome
+•	pip install matplotlib
+•	pip install networkx
+•	pip install twilio
 •	Run “python3 Client.py” in one window
 •	Run “python3 Server.py" in the other window
 
-2.	Enter 1 for Login and 2 for Sign Up:
+3.	Enter 1 for Login and 2 for Sign Up:
 If Login Chosen: For logging to the server
  	Enter Username and Password
           If Sign Up Chosen: For signing up to the server
  	Enter Username, Password and Mobile Number
 	Proceed to Login
 
-3.	2FA:
+4.	2FA:
 Enter OTP sent to the mobile number
 Login Successful!
 
-4.	Choose option:
+5.	Choose option:
 1.	List all uploads: It gives list of all uploaded files by the user.
 2.	Upload a file: For uploading a file
 Enter valid file name to upload
